@@ -14,5 +14,10 @@ PRODUCT_COPY_FILES += \
     vendor/slim/prebuilt/common/etc/selective-spn-conf.xml:system/etc/selective-spn-conf.xml
 
 # SIM Toolkit
-PRODUCT_PACKAGES += \
-    Stk
+#PRODUCT_PACKAGES += \
+#    Stk
+
+# mokee location
+$(call project-set-path,phonelocation,frameworks/base/mokee/jni/phonelocation)
+PRODUCT_COPY_FILES += \
+    frameworks/base/data/location/phonelocation.dat:/system/media/location/phonelocation.dat

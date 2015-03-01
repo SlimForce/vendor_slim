@@ -1,3 +1,3 @@
 # SIM Toolkit
-PRODUCT_PACKAGES += \
-    Stk
+#PRODUCT_PACKAGES += \
+#    Stk
