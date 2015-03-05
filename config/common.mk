@@ -70,7 +70,6 @@ PRODUCT_PACKAGES += \
 
 # Eleven
 PRODUCT_PACKAGES += \
-    Eleven \
     AudioFX
 
 # Extra Optional packages
