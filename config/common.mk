@@ -110,7 +110,7 @@ PRODUCT_PACKAGES += \
 
 # Additional prebuilt APKs and libs
 PRODUCT_PACKAGES += \
-    CameraNextMod \
+    Camera2 \
     libjni_mosaic
 
 # Screen recorder package and lib
