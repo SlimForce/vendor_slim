@@ -67,30 +67,18 @@ SUPERUSER_EMBEDDED := true
 
 # Required packages
 PRODUCT_PACKAGES += \
-    CellBroadcastReceiver \
-    Development \
-    SpareParts \
+    NovaLauncher \
     Superuser \
     su
 
-# Optional packages
-PRODUCT_PACKAGES += \
-    Basic \
-    LiveWallpapersPicker \
-    PhaseBeam
-
 # Eleven
 PRODUCT_PACKAGES += \
-    Eleven \
     AudioFX
 
 # Extra Optional packages
 PRODUCT_PACKAGES += \
-    SlimLauncher \
     LatinIME \
     BluetoothExt \
-    LockClock \
-    SlimOTA \
     KernelAdiutor
 
 # Extra tools
