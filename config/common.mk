@@ -74,7 +74,6 @@ PRODUCT_PACKAGES += \
 
 # Extra Optional packages
 PRODUCT_PACKAGES += \
-    SimpleExplorer \
     LatinIME \
     BluetoothExt 
 
@@ -110,8 +109,7 @@ PRODUCT_PACKAGES += \
 
 # Additional prebuilt APKs and libs
 PRODUCT_PACKAGES += \
-    Camera2 \
-    libjni_mosaic
+    Camera2 
 
 # Screen recorder package and lib
 PRODUCT_PACKAGES += \
