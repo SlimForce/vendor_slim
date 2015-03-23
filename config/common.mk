@@ -207,4 +207,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
 EXTENDED_POST_PROCESS_PROPS := vendor/slim/tools/slim_process_props.py
 FINISHER_SCRIPT := vendor/slim/tools/finisher
 SQUISHER_SCRIPT := vendor/slim/tools/squisher
+CHANGELOG_SCRIPT := vendor/slim/tools/changelog.sh
 
