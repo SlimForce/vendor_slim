@@ -176,11 +176,6 @@ ifndef SLIM_BUILD_TYPE
     SLIM_POSTFIX := $(shell date +"%Y%m%d")
 endif
 
-# Chromium Prebuilt
-ifeq ($(PRODUCT_PREBUILT_WEBVIEWCHROMIUM),yes)
--include prebuilts/chromium/$(TARGET_DEVICE)/chromium_prebuilt.mk
-endif
-
 # Set all versions
 SLIM_VERSION := Slim-$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR).$(PRODUCT_VERSION_MAINTENANCE)-$(SLIM_BUILD_TYPE)
 SLIM_MOD_VERSION := SlimSaber-$(SLIM_BUILD)-$(PRODUCT_VERSION_MAJOR)-$(SLIM_POSTFIX)
