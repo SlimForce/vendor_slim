@@ -81,7 +81,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     LatinIME \
     BluetoothExt \
-    KernelAdiutor
+    Calendar \
+    KernelAdiutor \
+    WallpaperPicker
 
 # Extra tools
 PRODUCT_PACKAGES += \
